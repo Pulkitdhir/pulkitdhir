@@ -19,7 +19,7 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('login/', admin.site.urls),
    	path('',include('blog.urls')),
    	url(r'^tinymce/', include('tinymce.urls')),
 ]
